@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Automata Metaverse — a world built from computation</title>
+<meta name="description" content="A game-based learning world for Formal Languages and Automata Theory: build DFAs, NFAs, grammars, PDAs and Turing machines, verify them, archive them and deploy them into a living world.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Ccircle cx='32' cy='32' r='26' fill='%230a1030' stroke='%2322d3ee' stroke-width='4'/%3E%3Ccircle cx='32' cy='32' r='16' fill='none' stroke='%23c084fc' stroke-width='4'/%3E%3Ccircle cx='32' cy='32' r='5' fill='%23fbbf24'/%3E%3C/svg%3E">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body data-world="hub">
+<canvas id="stars" aria-hidden="true"></canvas>
+<div id="app" role="application" aria-label="Automata Metaverse"></div>
+<div id="toasts" aria-live="polite"></div>
+<noscript><p style="padding:2rem;color:#fff">Automata Metaverse needs JavaScript. Please enable it and reload.</p></noscript>
+
+<!-- FORMAL LAYER (pure logic — runs in the browser and in Node) -->
+<script src="js/formal/core.js"></script>
+<script src="js/formal/fa.js"></script>
+<script src="js/formal/cfg.js"></script>
+<script src="js/formal/pda.js"></script>
+<script src="js/formal/tm.js"></script>
+<script src="js/formal/jflap.js"></script>
+<script src="js/formal/jflap_tools.js"></script>
+<!-- GAME WORLD LAYER -->
+<script src="js/game/data.js"></script>
+<script src="js/game/scoring.js"></script>
+<script src="js/game/store.js"></script>
+<script src="js/game/achievements.js"></script>
+<script src="js/game/jflap_levels.js"></script>
+<script src="js/game/challenges.js"></script>
+<script src="js/game/variants.js"></script>
+<script src="js/game/engine.js"></script>
+<!-- UI LAYER -->
+<script src="js/ui/dom.js"></script>
+<script src="js/ui/art.js"></script>
+<script src="js/ui/editor.js"></script>
+<script src="js/ui/widgets.js"></script>
+<script src="js/ui/tools.js"></script>
+<script src="js/ui/mission.js"></script>
+<script src="js/ui/screens.js"></script>
+<script src="js/ui/jflap_ui.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>

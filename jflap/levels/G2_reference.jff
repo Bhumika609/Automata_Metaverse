@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><!--Created with Automata Metaverse (JFLAP-compatible).-->
+<structure>
+	<type>grammar</type>
+	<!--The list of productions.-->
+	<production>
+		<left>S</left>
+		<right>(S)S</right>
+	</production>
+	<production>
+		<left>S</left>
+		<right/>
+	</production>
+</structure>

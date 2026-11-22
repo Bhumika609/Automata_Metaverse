@@ -1,0 +1,10 @@
+{
+  "name": "automata-metaverse",
+  "version": "1.0.0",
+  "description": "Automata Metaverse – a game-based learning world for Formal Languages and Automata Theory",
+  "scripts": {
+    "start": "node serve.js",
+    "test": "node tests/formal.test.js && node tests/game.test.js && node tests/jflap.test.js && node tests/levels.test.js && node tests/variants.test.js"
+  },
+  "license": "MIT"
+}
